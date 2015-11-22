@@ -28,7 +28,7 @@ public class RoomResourceTest {
         Room roomB = createRoom();
         assertTrue(roomA.deepEquals(roomB));
     }
-    
+
     @Test
     public void testIsExistFail() throws Exception {
         Room roomA = createRoom();
